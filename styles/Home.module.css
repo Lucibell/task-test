@@ -5,7 +5,7 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background-color: #cb7cef;
+	background-color: #d5a82e;
 }
 
 .heading {
@@ -15,11 +15,13 @@
 
 .container {
 	width: 500px;
+	/* height: 300px; */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	padding: 20px;
 	border-radius: 10px;
+	/* margin-bottom: 100px; */
 	background-color: white;
 	box-sizing: rgb(0 0 0 / 20%) 0px 3px 3px -2px,
 		rgb(0 0 0 / 14%) 0px 3px 4px 0px, rgb(0 0 0 / 12%) 0px 1px 8px 0px;
@@ -37,7 +39,7 @@
 	flex-grow: 1;
 	height: inherit;
 	outline: none;
-	border: 1px solid #cb7cef;
+	border: 1px solid #d5a82e;
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
 	font-size: 16px;
@@ -53,7 +55,7 @@
 	cursor: pointer;
 	outline: none;
 	border: none;
-	background-color: #cb7cef;
+	background-color: #d5a82e;
 	color: white;
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
@@ -65,7 +67,7 @@
 	padding: 5px;
 	margin: 5px 0;
 	border-radius: 5px;
-	border: 1px solid #cb7cef;
+	/* border: 1px solid #d5a82e; */
 	box-sizing: rgb(0 0 0 / 20%) 0px 3px 3px -2px,
 		rgb(0 0 0 / 14%) 0px 3px 4px 0px, rgb(0 0 0 / 12%) 0px 1px 8px 0px;
 	display: flex;

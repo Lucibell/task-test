@@ -3,7 +3,7 @@ import dbConnect from '../../../utils/dbConnect'
 
 export default async (req,res)=> {
     const {method} = req;
-    const {id} = req. query;
+    const {id} = req.query;
 
     //Conexión a la base de datos
     await dbConnect();

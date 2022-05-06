@@ -5,14 +5,14 @@ const TaskSchema = new mongoose.Schema({
         type: String, 
         required :true },
 
-    completed: { 
+    complete: { 
         type: Boolean,
-        default: false }
+        default: false },
     
-    // color: {
-    //     type:String, 
+    color: {
+        type:String, 
 
-    // }
+    }
 
 })
 
